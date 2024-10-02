@@ -1,0 +1,22 @@
+.dl-button > div
+.icon div svg {
+    width: 20px;
+    height: 18px;
+    display: block;
+    fill: #ffffff;
+    margin-top: 2px;
+    position: relative;
+    z-index: 1;
+}
+
+.dl-button > div .icon div svg.arrow {
+    color: #fff;
+    position:absolute;
+    top: 0;
+    transform: translateY(-1px);
+    left: 0px;
+}
+.dl-button > div .icon div svg.shape {
+    color: var(--color);
+    transition: color 0.4s ease;
+}
